@@ -12,7 +12,7 @@ $ npm ci
 
 #### Before starting, make sure that you have correctly configured .env files!
 
-Specify the port and URL of third-party APIs for the server:
+Specify the port and Database URL for the server:
 ```sh
 PORT=7000
 DATABASE_URL="postgresql://postgres:admin@localhost:5433/quiz?schema=public"
